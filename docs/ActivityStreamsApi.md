@@ -1,12 +1,11 @@
-# \ActivityStreamsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**ActivityStreamsActivityStreamList**](ActivityStreamsApi.md#ActivityStreamsActivityStreamList) | **Get** /api/v2/activity_stream/ |  List Activity Streams
 [**ActivityStreamsActivityStreamRead**](ActivityStreamsApi.md#ActivityStreamsActivityStreamRead) | **Get** /api/v2/activity_stream/{id}/ |  Retrieve an Activity Stream
-
 
 # **ActivityStreamsActivityStreamList**
 > ActivityStreamsActivityStreamList(ctx, optional)
@@ -23,7 +22,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a ActivityStreamsApiActivityStreamsActivityStreamListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -40,7 +38,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -61,7 +59,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a ActivityStreamsApiActivityStreamsActivityStreamReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -77,7 +74,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

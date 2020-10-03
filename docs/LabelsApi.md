@@ -1,6 +1,6 @@
-# \LabelsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -9,7 +9,6 @@ Method | HTTP request | Description
 [**LabelsLabelsPartialUpdate**](LabelsApi.md#LabelsLabelsPartialUpdate) | **Patch** /api/v2/labels/{id}/ |  Update a Label
 [**LabelsLabelsRead**](LabelsApi.md#LabelsLabelsRead) | **Get** /api/v2/labels/{id}/ |  Retrieve a Label
 [**LabelsLabelsUpdate**](LabelsApi.md#LabelsLabelsUpdate) | **Put** /api/v2/labels/{id}/ |  Update a Label
-
 
 # **LabelsLabelsCreate**
 > LabelsLabelsCreate(ctx, optional)
@@ -26,10 +25,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a LabelsApiLabelsLabelsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of Data37**](Data37.md)|  | 
+ **body** | [**optional.Interface of Body37**](Body37.md)|  | 
 
 ### Return type
 
@@ -61,7 +59,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a LabelsApiLabelsLabelsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -78,7 +75,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -99,12 +96,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a LabelsApiLabelsLabelsPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data39**](Data39.md)|  | 
+ **body** | [**optional.Interface of Body39**](Body39.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -137,7 +133,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a LabelsApiLabelsLabelsReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -153,7 +148,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -174,12 +169,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a LabelsApiLabelsLabelsUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data38**](Data38.md)|  | 
+ **body** | [**optional.Interface of Body38**](Body38.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 

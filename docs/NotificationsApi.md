@@ -1,12 +1,11 @@
-# \NotificationsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**NotificationsNotificationsList**](NotificationsApi.md#NotificationsNotificationsList) | **Get** /api/v2/notifications/ |  List Notifications
 [**NotificationsNotificationsRead**](NotificationsApi.md#NotificationsNotificationsRead) | **Get** /api/v2/notifications/{id}/ |  Retrieve a Notification
-
 
 # **NotificationsNotificationsList**
 > NotificationsNotificationsList(ctx, optional)
@@ -23,7 +22,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationsApiNotificationsNotificationsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -40,7 +38,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -61,7 +59,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationsApiNotificationsNotificationsReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -77,7 +74,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

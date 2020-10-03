@@ -1,12 +1,11 @@
-# \DashboardApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**DashboardDashboardGraphsJobsList**](DashboardApi.md#DashboardDashboardGraphsJobsList) | **Get** /api/v2/dashboard/graphs/jobs/ |  View Statistics for Job Runs
 [**DashboardDashboardList**](DashboardApi.md#DashboardDashboardList) | **Get** /api/v2/dashboard/ | Show Dashboard Details
-
 
 # **DashboardDashboardGraphsJobsList**
 > DashboardDashboardGraphsJobsList(ctx, )
@@ -27,7 +26,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -35,8 +34,6 @@ No authorization required
 # **DashboardDashboardList**
 > DashboardDashboardList(ctx, )
 Show Dashboard Details
-
-
 
 ### Required Parameters
 This endpoint does not need any parameter.
@@ -51,7 +48,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

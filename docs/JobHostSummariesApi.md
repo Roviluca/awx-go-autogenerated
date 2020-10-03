@@ -1,11 +1,10 @@
-# \JobHostSummariesApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**JobHostSummariesJobHostSummariesRead**](JobHostSummariesApi.md#JobHostSummariesJobHostSummariesRead) | **Get** /api/v2/job_host_summaries/{id}/ |  Retrieve a Job Host Summary
-
 
 # **JobHostSummariesJobHostSummariesRead**
 > JobHostSummariesJobHostSummariesRead(ctx, id, optional)
@@ -23,7 +22,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a JobHostSummariesApiJobHostSummariesJobHostSummariesReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -39,7 +37,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

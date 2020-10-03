@@ -1,6 +1,6 @@
-# \OrganizationsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -45,7 +45,6 @@ Method | HTTP request | Description
 [**OrganizationsOrganizationsWorkflowJobTemplatesCreate**](OrganizationsApi.md#OrganizationsOrganizationsWorkflowJobTemplatesCreate) | **Post** /api/v2/organizations/{id}/workflow_job_templates/ |  Create a Workflow Job Template for an Organization
 [**OrganizationsOrganizationsWorkflowJobTemplatesList**](OrganizationsApi.md#OrganizationsOrganizationsWorkflowJobTemplatesList) | **Get** /api/v2/organizations/{id}/workflow_job_templates/ |  List Workflow Job Templates for an Organization
 
-
 # **OrganizationsOrganizationsAccessListList**
 > OrganizationsOrganizationsAccessListList(ctx, id, optional)
  List Users
@@ -62,7 +61,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsAccessListListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -80,7 +78,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -101,7 +99,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsActivityStreamListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -119,7 +116,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -140,11 +137,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsAdminsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -177,7 +173,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsAdminsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -195,7 +190,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -216,11 +211,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsApplicationsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data44**](Data44.md)|  | 
+ **body** | [**optional.Interface of Body44**](Body44.md)|  | 
 
 ### Return type
 
@@ -253,7 +247,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsApplicationsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -271,7 +264,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -291,10 +284,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -327,11 +319,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsCredentialsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data45**](Data45.md)|  | 
+ **body** | [**optional.Interface of Body45**](Body45.md)|  | 
 
 ### Return type
 
@@ -364,7 +355,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsCredentialsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -382,7 +372,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -403,7 +393,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -419,7 +408,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -440,11 +429,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsGalaxyCredentialsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -477,7 +465,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsGalaxyCredentialsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -495,7 +482,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -516,11 +503,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsInstanceGroupsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -553,7 +539,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsInstanceGroupsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -571,7 +556,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -592,7 +577,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsInventoriesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -610,7 +594,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -631,11 +615,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsJobTemplatesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data46**](Data46.md)|  | 
+ **body** | [**optional.Interface of Body46**](Body46.md)|  | 
 
 ### Return type
 
@@ -668,7 +651,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsJobTemplatesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -686,7 +668,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -706,7 +688,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -723,7 +704,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -744,11 +725,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesApprovalsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -781,7 +761,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesApprovalsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -799,7 +778,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -820,11 +799,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data47**](Data47.md)|  | 
+ **body** | [**optional.Interface of Body47**](Body47.md)|  | 
 
 ### Return type
 
@@ -857,11 +835,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesErrorCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data48**](Data48.md)|  | 
+ **body** | [**optional.Interface of Body48**](Body48.md)|  | 
 
 ### Return type
 
@@ -894,7 +871,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesErrorListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -912,7 +888,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -933,7 +909,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -951,7 +926,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -972,11 +947,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesStartedCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -1009,7 +983,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesStartedListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1027,7 +1000,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1048,11 +1021,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesSuccessCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data49**](Data49.md)|  | 
+ **body** | [**optional.Interface of Body49**](Body49.md)|  | 
 
 ### Return type
 
@@ -1085,7 +1057,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsNotificationTemplatesSuccessListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1103,7 +1074,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1124,7 +1095,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsObjectRolesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1142,7 +1112,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1163,12 +1133,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -1201,11 +1170,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsProjectsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data50**](Data50.md)|  | 
+ **body** | [**optional.Interface of Body50**](Body50.md)|  | 
 
 ### Return type
 
@@ -1238,7 +1206,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsProjectsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1256,7 +1223,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1277,7 +1244,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1293,7 +1259,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1314,11 +1280,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsTeamsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data51**](Data51.md)|  | 
+ **body** | [**optional.Interface of Body51**](Body51.md)|  | 
 
 ### Return type
 
@@ -1351,7 +1316,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsTeamsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1369,7 +1333,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1390,12 +1354,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -1428,11 +1391,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsUsersCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -1465,7 +1427,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsUsersListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1483,7 +1444,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1504,11 +1465,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsWorkflowJobTemplatesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data52**](Data52.md)|  | 
+ **body** | [**optional.Interface of Body52**](Body52.md)|  | 
 
 ### Return type
 
@@ -1541,7 +1501,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a OrganizationsApiOrganizationsOrganizationsWorkflowJobTemplatesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1559,7 +1518,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

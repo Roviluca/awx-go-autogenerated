@@ -1,6 +1,6 @@
-# \NotificationTemplatesApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -14,7 +14,6 @@ Method | HTTP request | Description
 [**NotificationTemplatesNotificationTemplatesRead**](NotificationTemplatesApi.md#NotificationTemplatesNotificationTemplatesRead) | **Get** /api/v2/notification_templates/{id}/ |  Retrieve a Notification Template
 [**NotificationTemplatesNotificationTemplatesTestCreate**](NotificationTemplatesApi.md#NotificationTemplatesNotificationTemplatesTestCreate) | **Post** /api/v2/notification_templates/{id}/test/ | Test a Notification Template
 [**NotificationTemplatesNotificationTemplatesUpdate**](NotificationTemplatesApi.md#NotificationTemplatesNotificationTemplatesUpdate) | **Put** /api/v2/notification_templates/{id}/ |  Update a Notification Template
-
 
 # **NotificationTemplatesNotificationTemplatesCopyCreate**
 > NotificationTemplatesNotificationTemplatesCopyCreate(ctx, id, optional)
@@ -30,11 +29,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesCopyCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data43**](Data43.md)|  | 
+ **body** | [**optional.Interface of Body43**](Body43.md)|  | 
 
 ### Return type
 
@@ -65,7 +63,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesCopyListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -83,7 +80,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -103,10 +100,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of Data40**](Data40.md)|  | 
+ **body** | [**optional.Interface of Body40**](Body40.md)|  | 
 
 ### Return type
 
@@ -139,7 +135,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -155,7 +150,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -175,7 +170,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -192,7 +186,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -213,7 +207,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesNotificationsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -231,7 +224,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -252,12 +245,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data42**](Data42.md)|  | 
+ **body** | [**optional.Interface of Body42**](Body42.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -290,7 +282,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -306,7 +297,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -314,8 +305,6 @@ No authorization required
 # **NotificationTemplatesNotificationTemplatesTestCreate**
 > NotificationTemplatesNotificationTemplatesTestCreate(ctx, id)
 Test a Notification Template
-
-
 
 ### Required Parameters
 
@@ -334,7 +323,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -355,12 +344,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a NotificationTemplatesApiNotificationTemplatesNotificationTemplatesUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data41**](Data41.md)|  | 
+ **body** | [**optional.Interface of Body41**](Body41.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 

@@ -1,6 +1,6 @@
-# \InstanceGroupsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -13,7 +13,6 @@ Method | HTTP request | Description
 [**InstanceGroupsInstanceGroupsPartialUpdate**](InstanceGroupsApi.md#InstanceGroupsInstanceGroupsPartialUpdate) | **Patch** /api/v2/instance_groups/{id}/ |  Update an Instance Group
 [**InstanceGroupsInstanceGroupsRead**](InstanceGroupsApi.md#InstanceGroupsInstanceGroupsRead) | **Get** /api/v2/instance_groups/{id}/ |  Retrieve an Instance Group
 [**InstanceGroupsInstanceGroupsUpdate**](InstanceGroupsApi.md#InstanceGroupsInstanceGroupsUpdate) | **Put** /api/v2/instance_groups/{id}/ |  Update an Instance Group
-
 
 # **InstanceGroupsInstanceGroupsCreate**
 > InstanceGroupsInstanceGroupsCreate(ctx, optional)
@@ -30,10 +29,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of Data15**](Data15.md)|  | 
+ **body** | [**optional.Interface of Body15**](Body15.md)|  | 
 
 ### Return type
 
@@ -66,7 +64,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -82,7 +79,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -103,11 +100,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsInstancesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data17**](Data17.md)|  | 
+ **body** | [**optional.Interface of Body17**](Body17.md)|  | 
 
 ### Return type
 
@@ -140,7 +136,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsInstancesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -158,7 +153,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -179,7 +174,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsJobsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -197,7 +191,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -217,7 +211,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -234,7 +227,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -255,12 +248,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -293,7 +285,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -309,7 +300,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -330,12 +321,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a InstanceGroupsApiInstanceGroupsInstanceGroupsUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data16**](Data16.md)|  | 
+ **body** | [**optional.Interface of Body16**](Body16.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 

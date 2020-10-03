@@ -1,6 +1,6 @@
-# \SettingsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -10,7 +10,6 @@ Method | HTTP request | Description
 [**SettingsSettingsPartialUpdate**](SettingsApi.md#SettingsSettingsPartialUpdate) | **Patch** /api/v2/settings/{category_slug}/ |  Update a Setting
 [**SettingsSettingsRead**](SettingsApi.md#SettingsSettingsRead) | **Get** /api/v2/settings/{category_slug}/ |  Retrieve a Setting
 [**SettingsSettingsUpdate**](SettingsApi.md#SettingsSettingsUpdate) | **Put** /api/v2/settings/{category_slug}/ |  Update a Setting
-
 
 # **SettingsSettingsDelete**
 > SettingsSettingsDelete(ctx, categorySlug)
@@ -35,7 +34,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -55,7 +54,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a SettingsApiSettingsSettingsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -71,7 +69,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -79,8 +77,6 @@ No authorization required
 # **SettingsSettingsLoggingTestCreate**
 > SettingsSettingsLoggingTestCreate(ctx, optional)
  Test Logging Configuration
-
-
 
 ### Required Parameters
 
@@ -91,10 +87,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a SettingsApiSettingsSettingsLoggingTestCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of Data60**](Data60.md)|  | 
+ **body** | [**optional.Interface of Body60**](Body60.md)|  | 
 
 ### Return type
 
@@ -127,11 +122,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a SettingsApiSettingsSettingsPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -171,7 +165,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -192,11 +186,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a SettingsApiSettingsSettingsUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 

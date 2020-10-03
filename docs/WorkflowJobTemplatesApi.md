@@ -1,6 +1,6 @@
-# \WorkflowJobTemplatesApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -30,16 +30,15 @@ Method | HTTP request | Description
 [**WorkflowJobTemplatesWorkflowJobTemplatesRead**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesRead) | **Get** /api/v2/workflow_job_templates/{id}/ |  Retrieve a Workflow Job Template
 [**WorkflowJobTemplatesWorkflowJobTemplatesSchedulesCreate**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSchedulesCreate) | **Post** /api/v2/workflow_job_templates/{id}/schedules/ |  Create a Schedule for a Workflow Job Template
 [**WorkflowJobTemplatesWorkflowJobTemplatesSchedulesList**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSchedulesList) | **Get** /api/v2/workflow_job_templates/{id}/schedules/ |  List Schedules for a Workflow Job Template
-[**WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecCreate**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecCreate) | **Post** /api/v2/workflow_job_templates/{id}/survey_spec/ | POST requests to this resource should include the full specification for a Workflow Job Template&#39;s Survey
-[**WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecDelete**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecDelete) | **Delete** /api/v2/workflow_job_templates/{id}/survey_spec/ | POST requests to this resource should include the full specification for a Workflow Job Template&#39;s Survey
-[**WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecList**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecList) | **Get** /api/v2/workflow_job_templates/{id}/survey_spec/ | POST requests to this resource should include the full specification for a Workflow Job Template&#39;s Survey
+[**WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecCreate**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecCreate) | **Post** /api/v2/workflow_job_templates/{id}/survey_spec/ | POST requests to this resource should include the full specification for a Workflow Job Template&#x27;s Survey
+[**WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecDelete**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecDelete) | **Delete** /api/v2/workflow_job_templates/{id}/survey_spec/ | POST requests to this resource should include the full specification for a Workflow Job Template&#x27;s Survey
+[**WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecList**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesSurveySpecList) | **Get** /api/v2/workflow_job_templates/{id}/survey_spec/ | POST requests to this resource should include the full specification for a Workflow Job Template&#x27;s Survey
 [**WorkflowJobTemplatesWorkflowJobTemplatesUpdate**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesUpdate) | **Put** /api/v2/workflow_job_templates/{id}/ |  Update a Workflow Job Template
 [**WorkflowJobTemplatesWorkflowJobTemplatesWebhookKeyCreate**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesWebhookKeyCreate) | **Post** /api/v2/workflow_job_templates/{id}/webhook_key/ | 
 [**WorkflowJobTemplatesWorkflowJobTemplatesWebhookKeyList**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesWebhookKeyList) | **Get** /api/v2/workflow_job_templates/{id}/webhook_key/ | 
 [**WorkflowJobTemplatesWorkflowJobTemplatesWorkflowJobsList**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesWorkflowJobsList) | **Get** /api/v2/workflow_job_templates/{id}/workflow_jobs/ |  List Workflow Jobs for a Workflow Job Template
 [**WorkflowJobTemplatesWorkflowJobTemplatesWorkflowNodesCreate**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesWorkflowNodesCreate) | **Post** /api/v2/workflow_job_templates/{id}/workflow_nodes/ |  Workflow Job Template Workflow Node List
 [**WorkflowJobTemplatesWorkflowJobTemplatesWorkflowNodesList**](WorkflowJobTemplatesApi.md#WorkflowJobTemplatesWorkflowJobTemplatesWorkflowNodesList) | **Get** /api/v2/workflow_job_templates/{id}/workflow_nodes/ |  Workflow Job Template Workflow Node List
-
 
 # **WorkflowJobTemplatesWorkflowJobTemplatesAccessListList**
 > WorkflowJobTemplatesWorkflowJobTemplatesAccessListList(ctx, id, optional)
@@ -57,7 +56,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesAccessListListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -75,7 +73,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -96,7 +94,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesActivityStreamListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -114,7 +111,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -135,11 +132,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesCopyCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data80**](Data80.md)|  | 
+ **body** | [**optional.Interface of Body80**](Body80.md)|  | 
 
 ### Return type
 
@@ -172,7 +168,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesCopyListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -190,7 +185,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -210,10 +205,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of Data78**](Data78.md)|  | 
+ **body** | [**optional.Interface of Body78**](Body78.md)|  | 
 
 ### Return type
 
@@ -246,7 +240,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -262,7 +255,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -288,7 +281,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -314,7 +307,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -335,11 +328,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesLabelsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data81**](Data81.md)|  | 
+ **body** | [**optional.Interface of Body81**](Body81.md)|  | 
 
 ### Return type
 
@@ -372,7 +364,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesLabelsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -390,7 +381,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -411,11 +402,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesLaunchCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data82**](Data82.md)|  | 
+ **body** | [**optional.Interface of Body82**](Body82.md)|  | 
 
 ### Return type
 
@@ -448,7 +438,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesLaunchReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -464,7 +453,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -484,7 +473,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -501,7 +489,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -522,11 +510,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesApprovalsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -559,7 +546,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesApprovalsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -577,7 +563,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -598,11 +584,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesErrorCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data83**](Data83.md)|  | 
+ **body** | [**optional.Interface of Body83**](Body83.md)|  | 
 
 ### Return type
 
@@ -635,7 +620,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesErrorListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -653,7 +637,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -674,11 +658,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesStartedCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -711,7 +694,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesStartedListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -729,7 +711,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -750,11 +732,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesSuccessCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data84**](Data84.md)|  | 
+ **body** | [**optional.Interface of Body84**](Body84.md)|  | 
 
 ### Return type
 
@@ -787,7 +768,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesNotificationTemplatesSuccessListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -805,7 +785,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -826,7 +806,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesObjectRolesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -844,7 +823,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -865,12 +844,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -903,7 +881,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -919,7 +896,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -940,11 +917,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesSchedulesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -977,7 +953,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesSchedulesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -995,7 +970,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1016,11 +991,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesSurveySpecCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -1053,7 +1027,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesSurveySpecDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1069,7 +1042,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1090,7 +1063,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesSurveySpecListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1108,7 +1080,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1129,12 +1101,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data79**](Data79.md)|  | 
+ **body** | [**optional.Interface of Body79**](Body79.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -1172,7 +1143,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1191,7 +1162,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesWebhookKeyListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1209,7 +1179,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1230,7 +1200,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesWorkflowJobsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1248,7 +1217,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -1269,11 +1238,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesWorkflowNodesCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of interface{}**](interface{}.md)|  | 
+ **body** | [**optional.Interface of interface{}**](interface{}.md)|  | 
 
 ### Return type
 
@@ -1306,7 +1274,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowJobTemplatesApiWorkflowJobTemplatesWorkflowJobTemplatesWorkflowNodesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -1324,7 +1291,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

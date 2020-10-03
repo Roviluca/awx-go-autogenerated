@@ -1,11 +1,10 @@
-# \UnifiedJobTemplatesApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**UnifiedJobTemplatesUnifiedJobTemplatesList**](UnifiedJobTemplatesApi.md#UnifiedJobTemplatesUnifiedJobTemplatesList) | **Get** /api/v2/unified_job_templates/ |  List Unified Job Templates
-
 
 # **UnifiedJobTemplatesUnifiedJobTemplatesList**
 > UnifiedJobTemplatesUnifiedJobTemplatesList(ctx, optional)
@@ -22,7 +21,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a UnifiedJobTemplatesApiUnifiedJobTemplatesUnifiedJobTemplatesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -39,7 +37,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

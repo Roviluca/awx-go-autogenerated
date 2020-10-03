@@ -1,6 +1,6 @@
-# \CustomInventoryScriptsApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -13,7 +13,6 @@ Method | HTTP request | Description
 [**CustomInventoryScriptsInventoryScriptsPartialUpdate**](CustomInventoryScriptsApi.md#CustomInventoryScriptsInventoryScriptsPartialUpdate) | **Patch** /api/v2/inventory_scripts/{id}/ |  Update a Custom Inventory Script
 [**CustomInventoryScriptsInventoryScriptsRead**](CustomInventoryScriptsApi.md#CustomInventoryScriptsInventoryScriptsRead) | **Get** /api/v2/inventory_scripts/{id}/ |  Retrieve a Custom Inventory Script
 [**CustomInventoryScriptsInventoryScriptsUpdate**](CustomInventoryScriptsApi.md#CustomInventoryScriptsInventoryScriptsUpdate) | **Put** /api/v2/inventory_scripts/{id}/ |  Update a Custom Inventory Script
-
 
 # **CustomInventoryScriptsInventoryScriptsCopyCreate**
 > CustomInventoryScriptsInventoryScriptsCopyCreate(ctx, id, optional)
@@ -29,11 +28,10 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsCopyCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **data** | [**optional.Interface of Data26**](Data26.md)|  | 
+ **body** | [**optional.Interface of Body26**](Body26.md)|  | 
 
 ### Return type
 
@@ -64,7 +62,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsCopyListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -82,7 +79,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -102,10 +99,9 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsCreateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **data** | [**optional.Interface of Data23**](Data23.md)|  | 
+ **body** | [**optional.Interface of Body23**](Body23.md)|  | 
 
 ### Return type
 
@@ -138,7 +134,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -154,7 +149,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -174,7 +169,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **page** | **optional.Int32**| A page number within the paginated result set. | 
@@ -191,7 +185,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -212,7 +206,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsObjectRolesListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -230,7 +223,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -251,12 +244,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data25**](Data25.md)|  | 
+ **body** | [**optional.Interface of Body25**](Body25.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -289,7 +281,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -305,7 +296,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -326,12 +317,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a CustomInventoryScriptsApiCustomInventoryScriptsInventoryScriptsUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data24**](Data24.md)|  | 
+ **body** | [**optional.Interface of Body24**](Body24.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 

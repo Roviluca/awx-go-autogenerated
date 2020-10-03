@@ -1,6 +1,6 @@
-# \WorkflowApprovalTemplatesApi
+# {{classname}}
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://null/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -9,7 +9,6 @@ Method | HTTP request | Description
 [**WorkflowApprovalTemplatesWorkflowApprovalTemplatesPartialUpdate**](WorkflowApprovalTemplatesApi.md#WorkflowApprovalTemplatesWorkflowApprovalTemplatesPartialUpdate) | **Patch** /api/v2/workflow_approval_templates/{id}/ |  Update a Workflow Approval Template
 [**WorkflowApprovalTemplatesWorkflowApprovalTemplatesRead**](WorkflowApprovalTemplatesApi.md#WorkflowApprovalTemplatesWorkflowApprovalTemplatesRead) | **Get** /api/v2/workflow_approval_templates/{id}/ |  Retrieve a Workflow Approval Template
 [**WorkflowApprovalTemplatesWorkflowApprovalTemplatesUpdate**](WorkflowApprovalTemplatesApi.md#WorkflowApprovalTemplatesWorkflowApprovalTemplatesUpdate) | **Put** /api/v2/workflow_approval_templates/{id}/ |  Update a Workflow Approval Template
-
 
 # **WorkflowApprovalTemplatesWorkflowApprovalTemplatesApprovalsList**
 > WorkflowApprovalTemplatesWorkflowApprovalTemplatesApprovalsList(ctx, id, optional)
@@ -27,7 +26,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowApprovalTemplatesApiWorkflowApprovalTemplatesWorkflowApprovalTemplatesApprovalsListOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -45,7 +43,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -66,7 +64,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowApprovalTemplatesApiWorkflowApprovalTemplatesWorkflowApprovalTemplatesDeleteOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -82,7 +79,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -103,12 +100,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowApprovalTemplatesApiWorkflowApprovalTemplatesWorkflowApprovalTemplatesPartialUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data73**](Data73.md)|  | 
+ **body** | [**optional.Interface of Body73**](Body73.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
@@ -141,7 +137,6 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowApprovalTemplatesApiWorkflowApprovalTemplatesWorkflowApprovalTemplatesReadOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
@@ -157,7 +152,7 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
@@ -178,12 +173,11 @@ Name | Type | Description  | Notes
 
 ### Optional Parameters
 Optional parameters are passed through a pointer to a WorkflowApprovalTemplatesApiWorkflowApprovalTemplatesWorkflowApprovalTemplatesUpdateOpts struct
-
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **search** | **optional.String**| A search term. | 
- **data** | [**optional.Interface of Data72**](Data72.md)|  | 
+ **body** | [**optional.Interface of Body72**](Body72.md)|  | 
+ **search** | **optional.**| A search term. | 
 
 ### Return type
 
