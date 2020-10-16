@@ -10,8 +10,8 @@ package swagger
 
 type Body50 struct {
 	// Allow changing the SCM branch or revision in a job template that uses this project.
-	AllowOverride string `json:"allow_override,omitempty"`
-	Credential    int32  `json:"credential,omitempty"`
+	AllowOverride bool  `json:"allow_override,omitempty"`
+	Credential    int32 `json:"credential,omitempty"`
 	// Local absolute file path containing a custom Python virtualenv to use
 	CustomVirtualenv string `json:"custom_virtualenv,omitempty"`
 	Description      string `json:"description,omitempty"`
@@ -23,9 +23,9 @@ type Body50 struct {
 	// Specific branch, tag or commit to checkout.
 	ScmBranch string `json:"scm_branch,omitempty"`
 	// Discard any local changes before syncing the project.
-	ScmClean string `json:"scm_clean,omitempty"`
+	ScmClean bool `json:"scm_clean,omitempty"`
 	// Delete the project before syncing.
-	ScmDeleteOnUpdate string `json:"scm_delete_on_update,omitempty"`
+	ScmDeleteOnUpdate bool `json:"scm_delete_on_update,omitempty"`
 	// For git projects, an additional refspec to fetch.
 	ScmRefspec string `json:"scm_refspec,omitempty"`
 	// Specifies the source control system used to store the project.
@@ -33,9 +33,10 @@ type Body50 struct {
 	// The number of seconds after the last project update ran that a new project update will be launched as a job dependency.
 	ScmUpdateCacheTimeout int32 `json:"scm_update_cache_timeout,omitempty"`
 	// Update the project when a job is launched that uses the project.
-	ScmUpdateOnLaunch string `json:"scm_update_on_launch,omitempty"`
+	ScmUpdateOnLaunch bool `json:"scm_update_on_launch,omitempty"`
 	// The location where the project is stored.
 	ScmUrl string `json:"scm_url,omitempty"`
 	// The amount of time (in seconds) to run before the task is canceled.
 	Timeout int32 `json:"timeout,omitempty"`
 }
+
